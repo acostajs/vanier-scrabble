@@ -1,0 +1,15 @@
+# Deno
+.deno/
+
+# Logs & cache
+*.log
+coverage/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db

@@ -1,0 +1,71 @@
+{
+	"meta": {
+		"title": "Scrabble – CLI Scrabble Helper",
+		"role": "Developer",
+		"type": "Academic project (Web Interface Programming 1, Vanier College)",
+		"audience": ["Recruiters", "Instructors", "Developers"],
+		"status": "Completed"
+	},
+
+	"overview": {
+		"summary": "A command-line Scrabble helper program built with Deno and TypeScript. The project computes Scrabble word scores and determines the highest-value word from a list, with a focus on clean CLI interaction and simple algorithm design.",
+		"problem": "Manually calculating Scrabble scores for multiple words can be time-consuming and error-prone, especially when validating words against a dictionary.",
+		"solution": "A lightweight CLI tool that accepts command-line arguments, validates words against a predefined list, and accurately computes total and highest Scrabble scores."
+	},
+
+	"responsibilities": [
+		"Designed and implemented a command-line application using Deno and TypeScript",
+		"Handled command-line arguments using Deno.args",
+		"Implemented Scrabble letter scoring logic using constants",
+		"Validated words against a predefined dictionary",
+		"Implemented logic for total score and highest-value word calculation",
+		"Ensured case-insensitive input handling",
+		"Produced clear CLI output using console.log"
+	],
+
+	"tech_stack": ["TypeScript", "Deno", "CLI", "GitHub"],
+
+	"architecture": {
+		"approach": "Single-entry CLI application with logic decomposed into small, focused functions, emphasizing readability, maintainability, and academic best practices.",
+		"data_flow": "Command-line arguments are parsed at runtime; words are validated against a predefined list; scores are calculated using letter-value mappings and returned via standard output.",
+		"deployment": "Not deployed. The application is intended to be run locally using Deno."
+	},
+
+	"key_features": [
+		"Total Scrabble score calculation",
+		"Highest-value word determination",
+		"Case-insensitive word handling",
+		"Dictionary-based word validation",
+		"Clear command-line output"
+	],
+
+	"challenges_and_learnings": [
+		"Designing clear and predictable CLI program flow",
+		"Parsing and validating command-line arguments",
+		"Structuring TypeScript code without unnecessary complexity",
+		"Separating scoring logic from input handling",
+		"Handling edge cases such as invalid words and empty input"
+	],
+
+	"skills_demonstrated": [
+		"TypeScript programming",
+		"Deno CLI development",
+		"Algorithmic problem solving",
+		"Input validation",
+		"Command-line interface design",
+		"Academic project planning and execution"
+	],
+
+	"future_improvements": [
+		"Add support for bonus tiles (double letter, triple word, etc.)",
+		"Improve error messaging for invalid usage",
+		"Add automated tests for scoring functions",
+		"Support reading words from a file",
+		"Enhance CLI help and documentation"
+	],
+
+	"links": {
+		"live_demo": "",
+		"source_code": ""
+	}
+}
