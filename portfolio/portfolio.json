@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "Scrabble – CLI Scrabble Helper",
 		"role": "Developer",
-		"type": "Academic project (Web Interface Programming 1, Vanier College)",
+		"type": "Academic project",
 		"audience": ["Recruiters", "Instructors", "Developers"],
 		"status": "Completed"
 	},
@@ -19,8 +19,7 @@
 		"Implemented Scrabble letter scoring logic using constants",
 		"Validated words against a predefined dictionary",
 		"Implemented logic for total score and highest-value word calculation",
-		"Ensured case-insensitive input handling",
-		"Produced clear CLI output using console.log"
+		"Ensured case-insensitive input handling"
 	],
 
 	"tech_stack": ["TypeScript", "Deno", "CLI", "GitHub"],
@@ -60,12 +59,11 @@
 		"Add support for bonus tiles (double letter, triple word, etc.)",
 		"Improve error messaging for invalid usage",
 		"Add automated tests for scoring functions",
-		"Support reading words from a file",
-		"Enhance CLI help and documentation"
+		"Support reading words from a file"
 	],
 
 	"links": {
 		"live_demo": "",
-		"source_code": ""
+		"source_code": "https://github.com/acostajs/vanier-scrabble"
 	}
 }
